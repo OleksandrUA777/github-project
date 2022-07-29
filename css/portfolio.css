@@ -1,0 +1,215 @@
+:root{
+    --text-size:14px;
+    --text-secondary-size:16px;
+    --text-title-photo-size:18px;
+    --main-dark:#212121;
+    --main-light:#757575;
+    --main-white:#FFFFFF;
+    --main-hover:#2196F3;
+    --button-color:#F5F4FA;
+
+    --main-background-color:#E5E5E5;
+    --card-border-color:#EEEEEE;
+
+    --main-font:'Roboto', sans-serif;   
+    --secondary-font:'Raleway', sans-serif;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    color:var(--main-dark);
+    letter-spacing: 0.03em;
+}
+/* Header */
+.header{
+    padding-top: 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+.header-div{
+    background-color:var(--main-white);
+    padding-bottom: 32px;
+}
+.nav{
+    font-size: var(--text-size);
+    font-weight: 500px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.title{
+    font-family:var(--secondary-font);
+    color: var(--main-hover);
+    line-height: 1.2;
+}
+.menu-link,.tel{
+    text-decoration: none;
+    font-size: var(--text-size);
+    font-weight: 500;
+    color: var(--main-dark);
+    line-height: 1.2;
+}
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tel:hover,
+.tel:focus,
+.menu-link:hover,
+.menu-link:focus,
+.mail:hover,
+.mail:focus
+{
+    color:var(--main-hover);
+}
+
+.tel{
+    color: var(--main-light);
+}
+.mail{
+    text-decoration: none;
+    color: var(--main-light);
+    font-size: var(--text-size);
+}
+/*Main*/
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.button{
+background-color:var(--button-color);
+border-radius: 4px;
+border: 1px solid var(--button-color);
+margin-bottom: 50px;
+cursor: pointer;
+font-size: var(--text-secondary-size);
+font-weight: 500;
+margin-bottom: 0;
+}
+.one{
+    width: 73px;
+    height: 38px; 
+}
+.two{
+    width: 128px;
+    height: 38px;
+}
+.three{
+    width: 145px;
+    height: 38px;
+}
+.four{
+    width: 103px;
+    height: 38px;
+}
+.five{
+    width: 130px;
+    height: 38px; 
+}
+button:hover,
+button:focus{
+    background-color:var(--main-hover);
+    color: var(--main-white);
+}
+.cards{
+    background-color:var(--main-white);
+}
+.cards-div{
+ background: var(--main-white);
+ border: 1px solid var(--card-border-color);
+ width: 370px;
+ height: 404px;
+ margin-bottom: 30px;
+}
+.cards-text{
+    margin: 20px 24px;
+}
+.cards-img{
+    width: 370px;
+    height: 294px; 
+}
+.cards-header{
+    font-size: var(--text-title-photo-size);
+    font-weight: 700;
+    font-size: var(--text-title-photo-size);
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.cards-paragraph{
+    font-size: var(--text-secondary-size);
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--main-light); 
+}
+/*Footer*/
+.footer{
+    margin-top: 94px;
+    background-color: #2F303A;
+    width: 1500px;
+    height: 252px;
+}
+.logo-footer{
+    text-decoration: none;
+    font-size: 26px;
+    color:var(--main-white);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.title-footer{
+    font-family:var(--secondary-font);
+    color: var(--main-hover);
+    line-height: 1.2;
+}
+.footer-list{
+    margin-bottom: 9px;
+}
+.footer-div{
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.adress-list{
+    font-weight:400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    color: var(--main-white);
+    text-decoration: none;
+}
+.footer-mail{
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-phone{
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.adress-list:hover,
+.adress-list:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus
+{
+    color:var(--main-hover);
+}
